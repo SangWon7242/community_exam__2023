@@ -1,5 +1,7 @@
 package com.sbs.exam;
 
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
@@ -40,6 +42,22 @@ public class Rq {
   public void appendBody(String str) {
     try {
       resp.getWriter().append(str);
+    } catch (IOException e) {
+      throw new RuntimeException(e);
+    }
+  }
+
+  public void setAttr(String name, Object value) {
+    req.setAttribute(name, value);
+  }
+
+  public void view(String path) {
+    // Model2 방식 적용
+    RequestDispatcher requestDispatcher = req.getRequestDispatcher("/jsp/" + path + ".jsp");
+    try {
+      requestDispatcher.forward(req, resp);
+    } catch (ServletException e) {
+      throw new RuntimeException(e);
     } catch (IOException e) {
       throw new RuntimeException(e);
     }

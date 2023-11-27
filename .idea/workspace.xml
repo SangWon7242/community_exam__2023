@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0583dd87-64b0-4dba-aedb-375c5471e420" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/catalina.2023-11-27.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2023-11-27.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbs/exam/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbs/exam/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/catalina.2023-11-27.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/catalina.2023-11-27.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/localhost_access_log.2023-11-27.txt" beforeDir="false" afterPath="$PROJECT_DIR$/logs/localhost_access_log.2023-11-27.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbs/exam/Rq.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbs/exam/Rq.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sbs/exam/article/ArticleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sbs/exam/article/ArticleController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
