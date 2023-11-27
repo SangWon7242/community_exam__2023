@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<Context docBase="C:\work\jsp_projects\community_exam\src\main\wepapp">
+  <Resources cacheMaxSize="10240">
+    <PreResources base="C:/work/jsp_projects/community_exam/target/classes" className="org.apache.catalina.webresources.DirResourceSet" webAppMount="/WEB-INF/classes"/>
+  </Resources>
+</Context>
